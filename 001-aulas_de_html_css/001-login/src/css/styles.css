@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+body {
+  scroll-behavior: smooth;
+  height: 100vh;
+  width: 100vw;
+}
+
+/* section */
+section img {
+  max-width: 100%;
+}
+section.login-section {
+  display: flex;
+  padding: 10px;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.form-Login{
+  padding: 5px;
+  border: 2px solid rgba(102, 51, 153, 0.418);
+  min-width: 400px;
+  box-shadow: 0px 0px 10px #6C63FF;
+  padding: 10px;
+  border-radius: 10px;
+}
+.login-tittle h1{
+  font-weight: bold;
+  font-size: 1.5rem;
+  text-align: center;
+  background-color: #6C63FF;
+  padding: 10px;
+  color: white;
+  border-radius: 50% 0% 50% 0%;
+}
+/* formInput */
+label{
+  color: rebeccapurple;
+  font-weight: bold;
+}
+.formInput input{
+  padding: 15px;
+  width: 100%;
+  margin: 5px 0;
+  border: 1px solid #6C63FF;
+  border-radius: 2px;
+}
+.formInput input[type="submit"]{
+  background-color: #5048f1;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  transition: .5s;
+  border-radius: 0px 0px 10px 10px;
+}
+.formInput input[type="submit"]:hover{
+  background-color: rgb(58, 10, 105);
+}
+
+
+@media screen and (max-width:768px){
+  .login-img{
+    display: none;
+  }
+}

@@ -1,0 +1,49 @@
+/* gearl */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header{
+    /* background-color: black; */
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* color: white; */
+    flex-wrap: wrap;
+}
+h1{
+    margin: 0px 10px 0px 0px;
+    text-transform: uppercase;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+ul{
+    display: flex;
+    gap: 20px;
+}
+/* Links Visitado */
+a:visited {
+  color: red;
+}
+/* Links Não Visitado */
+a:link {
+    color: blue;
+}
+/* Links Estão sendo Visitado=click */
+a:active {
+    color: yellow;
+    background-color: rebeccapurple;
+}
+/* Links quando o mouse passa por cima */
+a:hover {
+    color: blueviolet;
+}
