@@ -11,7 +11,6 @@ Inicio
    LEIA(B)
    ESCREVAL("DIGITE O VALOR DE C:")
    LEIA(C)
-
    //VERIFICANDO O MAIOR VALOR
    SE (A<B) E (B<C) ENTAO
       ESCREVAL(A,"-",B,"-",C)
