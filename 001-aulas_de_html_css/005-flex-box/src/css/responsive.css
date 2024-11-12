@@ -1,0 +1,18 @@
+/* SMARTPHONE */
+
+@media screen and (max-width: 767px) {
+  /* .hamburguer {
+    display: block;
+  } */
+  div.pedido-burguer {
+    overflow-x: scroll;
+    width: 100vw;
+  }
+}
+/* nav-menu */
+
+/* tablet */
+
+/* desktop */
+
+/* laptop */

@@ -1,0 +1,239 @@
+/* Configurações gerais */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+/* header */
+
+header {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  justify-content: space-between;
+  background-color: black;
+  min-height: 90px;
+}
+
+header > .logo {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  cursor: pointer;
+  border: 5px solid #fff;
+}
+
+/* nav-menu */
+
+.nav-menu {
+  display: flex;
+  gap: 10px;
+}
+
+/* nav-item nav-link */
+
+.nav-item > .nav-link {
+  color: orange;
+  cursor: pointer;
+  transition: 0.5s;
+  font-size: 1rem;
+}
+
+.nav-item > .nav-link:hover {
+  color: #fff;
+}
+
+/* hamburguer */
+.hamburguer {
+  display: none;
+  cursor: pointer;
+}
+.hamburguer > .bars {
+  width: 40px;
+  height: 5px;
+  background-color: #fff;
+  margin: 3px 0;
+  border-radius: 10px;
+}
+
+/* welcome */
+
+.welcome {
+  min-height: 450px;
+  background-image: url("../img/logo-hamburguer.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  display: flex;
+  align-items: center;
+}
+
+.welcome > h1 {
+  background-color: #00000093;
+  padding: 30px 20px;
+  color: #ffffff;
+}
+
+/* container */
+
+.container {
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.make-burguer > h1 {
+  margin: 20px 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2rem;
+}
+
+.formuPost {
+  padding: 10px;
+  max-width: 800px;
+}
+
+.formInput {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 0;
+}
+label {
+  margin-bottom: 10px;
+  border-left: 5px solid orange;
+  padding: 0px 0px 0px 10px;
+  font-weight: bold;
+  color: #00000093;
+}
+.btncriar{
+  background-color: #000000;
+  color: orange;
+  font-weight: bold;
+  cursor: pointer;
+  border: none;
+  transition: 0.5s;
+  padding: 20px 20px;
+  text-align: center;
+}
+.btncriar:hover{
+  border: 1px solid #000000;
+  background-color: transparent;
+  color: orange;
+}
+.formInput input,
+select,
+button {
+  padding: 10px 20px;
+  border-radius: 2px;
+}
+
+.formInput input[type="submit"] {
+  background-color: #000000;
+  color: orange;
+  font-weight: bold;
+  cursor: pointer;
+  border: none;
+  transition: 0.5s;
+  padding: 20px 20px;
+}
+.formInput input[type="submit"]:hover {
+  border: 1px solid #000000;
+  background-color: transparent;
+  color: orange;
+}
+.checkBoxs {
+  display: flex;
+  flex-direction: row;
+  margin: 20px 0;
+}
+span {
+  padding: 10px;
+  color: #00000093;
+}
+
+/* footer-page */
+.footer-page {
+  min-height: 200px;
+  padding: 10px 20px;
+  background-color: rgba(0, 0, 0, 0.849);
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-top: 10px solid black;
+  flex-direction: column;
+}
+
+.footer-page > p {
+  color: orange;
+  font-size: 1rem;
+  font-weight: bold;
+  line-height: 30px;
+  text-transform: uppercase;
+}
+.sabino>a{
+  color: white;
+  font-weight: bold;
+}
+
+.main-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 100%;
+  padding: 10px 20px;
+}
+.main-container h1 {
+  text-align: center;
+
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: #00000093;
+}
+/* tabela */
+.btnCancelar {
+  border: none;
+  cursor: pointer;
+  color: orange;
+  font-weight: bold;
+  background-color: #000000c0;
+  padding: 10px 20px;
+  border-radius: 2px;
+  transition: 0.5s;
+}
+
+ul {
+  list-style-position: inside;
+}
+.btnCancelar:hover {
+  background-color: transparent;
+  color: #00000093;
+  color: orange;
+  border: 1px solid #00000093;
+}
+
+table,
+tr,
+td {
+  width: -webkit-fill-available;
+  padding: 10px;
+}
+
+table > thead > tr > td {
+  border-bottom: 5px solid #00000093;
+  text-align: center;
+  padding: 20px;
+  font-weight: bold;
+}
+
+table > tbody > tr > td {
+  border-bottom: 1px solid #00000093;
+  padding: 20px;
+}

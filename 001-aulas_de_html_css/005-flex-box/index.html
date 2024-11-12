@@ -1,13 +1,92 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ACADIGITAL-FLEX-BOX</title>
+    <link rel="stylesheet" href="./src/css/styles.css">
+    <link rel="stylesheet" href="./src/css/responsive.css">
+    <title>ACADIGITAL-BURGUER</title>
 </head>
+
 <body>
-    <h1>FLEX-BOX</h1>
-    <hr>
-    <a href="#">Adicionar</a>
+    <header>
+        <img src="./src/img/logo-hamburguer.jpg" alt="Logo" class="logo">
+        <nav>
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="./index.html" class="nav-link">Inicio</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Fazer Pedido</a></li>
+                <li class="nav-item"><a href="./src/pages/pedido.html" class="nav-link">Pedidos</a></li>
+            </ul>
+        </nav>
+        <div class="hamburguer">
+            <div class="bars"></div>
+            <div class="bars"></div>
+            <div class="bars"></div>
+        </div>
+    </header>
+    <!-- welcome -->
+    <div class="welcome">
+        <h1>MAKE YOUR BURGUER NOW !</h1>
+    </div>
+    <!-- main-container -->
+    <main class="container">
+        <div class="make-burguer">
+            <h1>Monte seu Burguer:</h1>
+            <form action="#" method="post" class="formuPost">
+                <div class="formInput">
+                    <label for="nome">Nome do cliente:</label>
+                    <input type="text" name="nome" id="nome" class="nome" placeholder="Digite o seu nome">
+                </div>
+                <div class="formInput">
+                    <label for="pao">Escolha o pão:</label>
+                    <select name="pao" id="pao">
+                        <option value="0" selected disabled>Selecione o seu pão---</option>
+                        <option value="Italiano Branco">Italiano Branco</option>
+                        <option value="Italiano Branco">Pão Burro</option>
+                        <option value="Italiano Branco">3 Queijos</option>
+                        <option value="Italiano Branco">Integral</option>
+                        <option value="Italiano Branco">Parmesão e Orégano</option>
+                    </select>
+                </div>
+                <div class="formInput">
+                    <label for="pao">Escolha a carne do seu burguer:</label>
+                    <select name="pao" id="pao">
+                        <option value="0" selected >Selecione o tipo de carne---</option>
+                        <option value="Italiano Branco">Maminha</option>
+                        <option value="Italiano Branco">Alcatra</option>
+                        <option value="Italiano Branco">Picanha</option>
+                        <option value="Italiano Branco">Veggie burguer</option>
+                        <option value="Italiano Branco">Porco</option>
+                    </select>
+                </div>
+                <div class="formInput checks">
+                    <label for="opcionais">Selecione os opcionais:</label>
+                    <div class="checkBoxs">
+                        <input type="checkbox" name="opcionais" id="opcionais" class="marcado"><span>Bacon</span>
+                        <input type="checkbox" name="opcionais" id="opcionais" class="marcado"><span>Tomate</span>
+                        <input type="checkbox" name="opcionais" id="opcionais" class="marcado"><span>Salame</span>
+                        <input type="checkbox" name="opcionais" id="opcionais" class="marcado"><span>Cheddar</span>
+                    
+                    </div>
+                    <div class="checkBoxs">
+                        <input type="checkbox" name="opcionais" id="opcionais" class="marcado"><span>Cebola roxa</span>
+                        <input type="checkbox" name="opcionais" id="opcionais" class="marcado"><span>Pepino</span>
+                        <input type="checkbox" name="opcionais" id="opcionais" class="marcado"><span>Maionese</span>
+                        <input type="checkbox" name="opcionais" id="opcionais" class="marcado"><span>Ketchup</span>
+                    </div>
+                </div>
+                <div class="formInput">
+                    <!-- <a href="./src/pages/pedido.html"><input type="submit" value="Criar meu burguer"></a> -->
+                     <a href="./src/pages/pedido.html" class="btncriar">Criar meu burguer</a>
+                </div>
+            </form>
+        </div>
+    </main>
+    <footer class="footer-page">
+        <p>MAKE YOUR BURGUER &copy;-2024 </p>
+        <p class="sabino">Desenvolvido por <a href="">Sabino Capingana</a> </p>
+    </footer>
 </body>
+
 </html>
