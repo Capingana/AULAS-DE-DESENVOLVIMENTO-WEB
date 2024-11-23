@@ -1,0 +1,152 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+html,body{
+    scroll-behavior: smooth;
+}
+/* header */
+header {
+  display: flex;
+  align-items: center;
+  padding: 10px 40px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+li {
+  list-style: none;
+}
+.logo {
+  width: 50px;
+  height: 50px;
+}
+.nav-menu {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.nav-link {
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  padding-bottom: 5px;
+  border-bottom: 2px solid tomato;
+}
+
+.nav-link:hover {
+  border-bottom: none;
+}
+
+.welcome {
+  padding: 10px 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  min-height: 600px;
+  background-image: url("../img/pexels-moe-magners-7495604.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  opacity: 0.8;
+}
+.welcome h1 {
+  color: rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
+  padding: 20px;
+  font-weight: bold;
+  font-size: 2rem;
+  border-radius: 10px;
+  text-transform: uppercase;
+}
+
+.welcome p {
+  text-align: center;
+  max-width: 800px;
+  background-color: rgb(255, 255, 255);
+  padding: 10px;
+  line-height: 25px;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  margin: 5px 0px;
+}
+
+.tbn-get {
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  padding: 20px 40px;
+  border: none;
+  cursor: pointer;
+  background-color: tomato;
+  border-radius: 5px;
+  border: 1px solid tomato;
+  width: 300px;
+  font-size: 1.5rem;
+}
+.tbn-get:hover {
+  background-color: transparent;
+  color: tomato;
+}
+.container {
+  padding: 20px 40px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.container > h1 {
+  color: tomato;
+  border-bottom: 2px solid tomato;
+  margin-bottom: 20px;
+}
+.features-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.features {
+  background-color: tomato;
+  padding: 20px;
+  border-radius: 5px;
+  transition: 0.5s;
+  cursor: pointer;
+  box-shadow: 0px 0px 5px rgb(0, 0, 0);
+  border: 2px solid rgb(255, 255, 255);
+}
+
+.features:hover {
+  background-color: rgba(255, 99, 71, 0.692);
+}
+.features h2 {
+  color: white;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.footer-section{
+    min-height: 100px;
+    padding: 10px 40px;
+    text-align: center;
+    background-color: tomato;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+}
+
+.footer-section strong{
+    padding: 0px 20px;
+}
+.footer-section p{
+    line-height: 30px;
+}
+
+
+

@@ -1,0 +1,37 @@
+@media screen and (max-width: 767px) {
+  header {
+    display: block;
+    background-position: center center;
+  }
+  nav {
+    display: block;
+  }
+  .nav-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .section-us {
+    display: block;
+  }
+  .our-treinares {
+    display: block;
+  }
+
+  .section-contact-us {
+    display: block;
+  }
+  .formInput input,
+  textarea {
+    width: -webkit-fill-available;
+  }
+  .section-information{
+    display: block;
+  }
+  .footer-section{
+    padding:30px;
+
+  }
+}

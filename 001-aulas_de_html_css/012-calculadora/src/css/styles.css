@@ -1,0 +1,132 @@
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: plus;
+  src: url("../fonts/PlusJakartaSans-VariableFont_wght.ttf");
+}
+
+body {
+  background-color: #e3f4fc;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-family: plus;
+}
+
+.container {
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  border-radius: 20px;
+  /* padding: 20px; */
+  flex-wrap: wrap;
+}
+.section-left {
+  display: flex;
+  flex-direction: column;
+  padding-left: 20px;
+}
+.tittle-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.tittle-section h4 {
+  font-size: 1rem;
+  color: #0003;
+}
+.tittle-section p > a {
+  font-size: 1rem;
+  color: #98d2ec;
+}
+
+/* formulario */
+.formulario label {
+  display: flex;
+  margin: 5px 0px;
+  color: rgba(0, 0, 0, 0.562);
+}
+.formInput input {
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid #000;
+  transition: 0.5s;
+  width: -webkit-fill-available;
+}
+.formInput input:hover {
+  border: 1px solid #d9db30;
+  cursor: pointer;
+}
+.aplication {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.type-pagment {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  justify-content: space-between;
+  background-color: #d8db1e;
+  padding: 5px;
+  margin: 5px 0px;
+  border-radius: 4px;
+}
+
+.type-pagment .left {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.type-pagment .right {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+input[type="submit"] {
+  background-color: #d9db30;
+  padding: 15px 20px;
+  border: none;
+}
+/* section-right */
+
+.section-right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #133040;
+  border-radius: 0px 20px 0px 20px;
+  margin-left: 20px;
+  max-width: 380px;
+}
+
+.section-right img {
+  margin: 20px 0px;
+}
+.section-right h1 {
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  margin-bottom: 20px;
+  font-size: 1rem;
+}
+.section-right p {
+  text-align: center;
+  color: rgba(0, 0, 0, 0.925);
+  font-weight: bold;
+  margin-bottom: 20px;
+  font-size: 1rem;
+  line-height: 30px;
+}

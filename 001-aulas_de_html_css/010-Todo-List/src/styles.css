@@ -1,0 +1,69 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(to bottom, rgba(45, 223, 223, 0.849), rgb(24, 24, 24));
+}
+
+.container {
+  background-color: rgb(43, 43, 43);
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px white;
+}
+.container > h1 {
+  margin: 20px 0;
+  font-size: 1rem;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  border-bottom: 1px solid white;
+  padding-bottom: 20px;
+}
+
+.formInput > label {
+  display: flex;
+  padding-bottom: 2px;
+  color: white;
+  font-weight: bold;
+}
+
+.formInput input,
+select {
+  padding: 10px;
+  width: -webkit-fill-available;
+  margin: 5px 0px;
+  border: none;
+  border-radius: 3px;
+  outline: none;
+}
+
+.btn>input{
+    background-color: rgba(45, 223, 223, 0.849);
+    color: white;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.btn>input:hover{
+    background-color: rgb(45, 223, 223);
+}
+
+.form-control#todo-imagem{
+    color: white;
+    font-weight: bold;
+}
+
+#first{
+    color: red;
+    font-weight: bold;
+}

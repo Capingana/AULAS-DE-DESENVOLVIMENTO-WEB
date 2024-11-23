@@ -1,0 +1,46 @@
+/* Responsividade */
+@media screen and (max-width: 767px) {
+  body {
+    height: 100%;
+    width: 100%;
+  }
+  .container {
+    flex-direction: column;
+    gap: 10px;
+    align-items: start;
+    width: 100%;
+    display: block;
+    border-radius: 0px;
+  }
+  .tittle-section {
+    flex-direction: column;
+    align-items: start;
+  }
+  .aplication {
+    flex-direction: column;
+    display: block;
+  }
+  .formInput {
+    margin: 2px 0px;
+    min-width: 100%;
+  }
+  .section-left {
+    padding: 20px;
+  }
+  .section-right {
+    display: block;
+    border-radius: 0px;
+    margin-left: 20px;
+    padding: 20px;
+    width: 100%;
+  }
+
+  .type-pagment {
+    margin: 10px 0px;
+    background-color: transparent;
+  }
+
+  input[type="submit"] {
+    margin: 10px 0px;
+  }
+}

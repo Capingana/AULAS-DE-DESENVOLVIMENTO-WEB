@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/styles.css">
+    <title>ACADIGITAL-Gerador de senhas</title>
+</head>
+
+<body>
+    <main class="container">
+        <div class="section-img">
+            <div class="left-img">
+                <img src="./src/img/undraw_pic_profile_re_7g2h.svg" alt="">
+                <p>Gerador de senhas</p>
+            </div>
+            <div class="right-img">
+                <ul>
+                    <li class="nav-item"><a href="#"><img src="./src/img/facebook.png" alt="Facebook"></a></li>
+                    <li class="nav-item"><a href="#"><img src="./src/img/youtube.png" alt="Youtube"></a></li>
+                </ul>
+            </div>
+        </div>
+
+        <section class="section-senhas">
+            <h1>Gere sua senha abaixo, configure como deseja e clique em gerar</h1>
+            <div class="letras-numeros">
+                <div class="first">
+                    <fieldset>
+                        <legend>Quantidade de caracteres</legend>
+                        <h1 class="qtd">0</h1>
+                    </fieldset>
+                </div>
+                <div class="second">
+                    <fieldset>
+                        <legend>Letras que deseja na senha</legend>
+                        <h1 class="qtd">A,C,D,K,Z</h1>
+                    </fieldset>
+                </div>
+                <div class="last">
+                    <fieldset>
+                        <legend>Números que deseja na senha</legend>
+                        <h1 class="qtd">1,6,8,9</h1>
+                    </fieldset>
+                </div>
+            </div>
+            <article class="formulario">
+                <form action="#" method="post">
+                    <div class="formInput in">
+                       <div class="dentro">
+                        <label for="caractere">Caracteres Especiais</label>
+                        <input type="radio" name="caractere" id="caractere">
+                       </div>
+                        <div class="dentro">
+                            <label for="caractere">Letras Maiúsculas</label>
+                        <input type="radio" name="caractere" id="caractere">
+                        </div>
+                        <div class="dentro">
+                            <label for="caractere">Letras Minúsculas</label>
+                        <input type="radio" name="caractere" id="caractere">
+                        </div>
+                       <div class="dentro">
+                        <label for="caractere">Número</label>
+                        <input type="radio" name="caractere" id="caractere">
+                       </div>
+                    </div>
+                    <div class="formInput">
+                        <input type="submit" value="GERAR MINHA SENHA">
+                    </div>
+                </form>
+            </article>
+        </section>
+    </main>
+</body>
+
+</html>

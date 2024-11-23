@@ -1,0 +1,130 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background: linear-gradient(to right, rgb(20, 20, 20), rgb(83, 83, 83));
+}
+
+.container {
+  padding: 10px 20px;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+.section-img {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  background-color: black;
+  border-radius: 30px;
+  padding: 5px;
+}
+.left-img {
+  display: flex;
+  align-items: center;
+}
+.left-img p {
+  margin-left: 10px;
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.left-img > img {
+  width: 50px;
+  height: 50px;
+}
+
+.right-img > ul {
+  display: flex;
+  align-items: center;
+}
+
+.right-img > ul img {
+  background-color: white;
+  padding: 2px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-left: 10px;
+}
+
+/* section-senhas */
+.section-senhas {
+  display: inline-block;
+  margin-top: 1px;
+  background-color: black;
+  padding: 20px;
+  color: white;
+}
+
+.section-senhas > h1 {
+  font-size: 1rem;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  text-align: center;
+}
+.letras-numeros {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 20px;
+}
+
+fieldset {
+  padding: 20px;
+}
+legend {
+  padding: 0px 10px 10px 0px;
+  text-align: left;
+  font-weight: bold;
+}
+
+/* formulario */
+.formulario {
+  margin-top: 10px;
+  padding: 5px 20px;
+  display: flex;
+  align-items: center;
+}
+.in {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  margin-bottom: 5px;
+  padding: 10px 0px;
+}
+
+.dentro {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+input[type="submit"] {
+  background-color: rgba(13, 200, 233, 0.568);
+  padding: 15px 20px;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  border: none;
+  width: 50%;
+  cursor: pointer;
+}
+input[type="submit"]:hover{
+    background-color: rgb(13, 200, 233);
+}

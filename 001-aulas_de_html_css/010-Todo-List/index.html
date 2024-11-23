@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/styles.css">
+    <title>ACADIGITAL-Lista de Tarefas</title>
+</head>
+<body>
+    <main class="container">
+        <h1>Lista de tarefas</h1>
+        <div class="formulario-todo-list">
+            <form action="#" method="post">
+                <div class="formInput">
+                    <label for="todo">Título</label>
+                    <input type="text" name="todo" id="todo" class="form-control" placeholder="Digite o titulo da tarefa">
+                </div>
+                <div class="formInput">
+                    <label for="todo-description">Descrição</label>
+                    <input type="text" name="todo-description" id="todo-description" class="form-control" placeholder="Digite a descrição da tarefa">
+                </div>
+                <div class="formInput">
+                    <label for="todo-media">Prioridade</label>
+                   <select name="todo-media" id="todo-media">
+                    <option value="0" selected disabled id="first">---Selecione a sua prioridade---</option>
+                    <option value="media">Média</option>
+                    <option value="alta">Alta</option>
+                    <option value="baixa">Baixa</option>
+                   </select>
+                </div>
+                <div class="formInput">
+                    <label for="todo-imagem">Imagem da tarefa</label>
+                   <input type="file" name="todo-imagem" class="form-control" id="todo-imagem">
+                </div>
+                <div class="formInput btn">
+                    <input type="submit" value="Adicionar tarefa">
+                </div>
+            </form>
+        </div>
+    </main>
+</body>
+</html>

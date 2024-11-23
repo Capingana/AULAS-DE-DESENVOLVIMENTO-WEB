@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/css/styles.css">
+    <link rel="stylesheet" href="./src/css/responsividade.css">
+    <title>ACADIGITAL-Calculcadora</title>
+</head>
+
+<body>
+    <main class="container">
+        <section class="section-left">
+            <div class="tittle-section">
+                <h4>Minha Calculadora</h4>
+                <p><a href="#">Apagar tudo</a></p>
+            </div>
+            <div class="formulario">
+                <form action="#" method="post">
+                    <div class="formInput">
+                        <label for="dinheiro">Montante de dinheiro</label>
+                        <input type="number" name="dinheiro" id="dinheiro">
+                    </div>
+                    <div class="formInput aplication">
+                        <div class="left">
+                            <label for="dinheiro">Anos de aplicação</label>
+                            <input type="number" name="dinheiro" id="dinheiro">
+                        </div>
+                        <div class="right">
+                            <label for="dinheiro">Percentual (%)</label>
+                            <input type="number" name="dinheiro" id="dinheiro">
+                        </div>
+                    </div>
+                    <div class="formInput type-pagment">
+                        <div class="left">
+                            <label for="cartao">Cartão</label>
+                            <input type="radio" name="pagamento" id="cartao" value="Cartão">
+                        </div>
+                        <div class="right">
+                            <label for="cash">Cash</label>
+                            <input type="radio" name="pagamento" id="cash" value="Cartão">
+                        </div>
+                    </div>
+                    <div class="formInput">
+                        <input type="submit" value="Calcular Pagamento">
+                    </div>
+                </form>
+            </div>
+        </section>
+
+        <!-- =================== -->
+        <section class="section-right">
+            <img src="./src/img/illustration-empty.svg" alt="calculate">
+            <h1>Mostrar aqui seus resultados</h1>
+            <p>Completa o formulário e clique em <q>Calcular Pagamento</q> para ver quanto será o seu montante.</p>
+        </section>
+    </main>
+</body>
+
+</html>
